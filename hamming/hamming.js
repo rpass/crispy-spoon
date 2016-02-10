@@ -4,6 +4,10 @@
 var hamming;
 hamming = function () {};
 
-hamming.prototype.hello = function () {
-    return '';
+hamming.prototype.compute = function (arg1, arg2) {
+    if(arg1 === arg2){
+        return 0;
+    }
 };
+
+module.exports = hamming;
